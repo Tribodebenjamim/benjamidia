@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamidia</title>
+    <style>
+               body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            margin: 20px;
+        }
+
+        .pin {
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            overflow: hidden;
+        }
+
+        .pin img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .pin.expanded {
+            grid-column: 1 / -1;
+            grid-row: 1;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+            padding: auto;
+        }
+
+        .pin.expanded img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="pin">
+            <img src="/src/imagens/IMG1.png" alt="Image 1">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG2.jpeg" alt="Image 2">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG3.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG4.jpeg" alt="Image 4">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG5.jpeg" alt="Image 5">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG6.jpeg" alt="Image 6">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG7.jpeg" alt="Image 7">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG8.jpeg" alt="Image 8">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG9.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG10.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG11.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG12.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG13.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG14.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG15.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG16.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG17.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG18.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG19.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG20.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG21.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG22.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG23.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG24.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG25.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG26.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG27.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG28.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG29.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG30.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG31.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG32.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG33.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG34.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG35.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG36.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG37.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG38.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG39.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG40.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG41.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG42.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG43.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG44.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG45.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG46.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG47.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG48.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG49.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG50.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG51.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG52.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG53.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG54.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG55.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG56.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG57.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG58.jpeg" alt="Image 3">
+        </div>
+        <div class="pin">
+            <img src="/src/imagens/IMG59.jpeg" alt="Image 3">
+        </div>
+        <!-- Add more pins here -->
+    </div>
+
+    <script>
+        const pins = document.querySelectorAll('.pin');
+
+        pins.forEach(pin => {
+            pin.addEventListener('click', () => {
+                pin.classList.toggle('expanded');
+            });
+        });
+    </script>
+</body>
+
+</html>LO
